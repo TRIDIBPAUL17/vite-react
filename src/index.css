@@ -1,0 +1,39 @@
+/* index.css */
+
+/* Reset and basic global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Container for the entire application */
+.app-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}

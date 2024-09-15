@@ -1,0 +1,173 @@
+/* app.css */
+
+/* Better, modern table styles */
+.p-datatable {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); /* Subtle shadow */
+  background-color: #ffffff;
+}
+
+.p-datatable-wrapper {
+  width: 100%;
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  background-color: #f8f9fa;
+  color: #4a4a4a;
+  text-align: left;
+  padding: 0.5rem;
+  font-weight: 600;
+}
+
+.p-datatable .p-datatable-tbody > tr {
+  transition: background-color 0.3s ease;
+}
+
+.p-datatable .p-datatable-tbody > tr:hover {
+  background-color: #f1f1f1;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+  padding: 0.5rem;
+  color: #333;
+}
+
+.p-datatable .p-datatable-tbody > tr:nth-child(odd) {
+  background-color: #f9f9f9; /* Alternate row coloring */
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Checkbox styles */
+.p-checkbox-box {
+  border: 2px solid #4a90e2;
+}
+
+.p-checkbox-box.p-highlight {
+  background-color: #4a90e2;
+  border-color: #4a90e2;
+}
+
+/* Pagination button styles */
+.p-paginator {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.p-paginator .p-paginator-pages {
+  display: flex;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page {
+  background-color: #ffffff;
+  color: #007bff; /* Default color for page numbers */
+  border-radius: 6px;
+  margin: 0 4px;
+  padding: 6px 12px;
+  border: 1px solid #e0e0e0; /* Light border */
+  transition: background-color 0.2s, color 0.2s;
+  cursor: pointer;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+  background-color: #007bff; /* Highlight color */
+  color: white; /* Text color for highlighted page */
+  border: 1px solid #007bff; /* Border color to match highlight */
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page:hover {
+  background-color: #0056b3; /* Hover color for non-active pages */
+  color: white; /* Text color for hover effect */
+}
+
+.p-paginator .p-paginator-next,
+.p-paginator .p-paginator-prev {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+  padding: 6px;
+  margin: 0 6px;
+  cursor: pointer;
+}
+
+.p-paginator .p-paginator-next:hover,
+.p-paginator .p-paginator-prev:hover {
+  background-color: #f0f2f5;
+}
+
+/* Selection panel styles */
+.selection-panel {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 1000px;
+  overflow: auto;
+}
+
+.selection-panel h4 {
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.selection-panel p {
+  font-size: 0.875rem;
+  color: #4a4a4a;
+  margin: 0.5rem 0;
+  line-height: 1.4;
+}
+
+/* Pagination container */
+.artwork-table-paginator {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+/* App container styles */
+.app-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.artwork-table-container {
+  margin-top: 20px;
+}
+
+.selected-artworks {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.selected-artworks ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.selected-artworks li {
+  margin: 5px 0;
+  padding: 5px;
+  background-color: #e9ecef;
+  border-radius: 3px;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.artwork-table {
+  margin: 20px 0;
+  width: 100%;
+}
